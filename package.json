@@ -1,6 +1,7 @@
-{ 
-  "homepage": "https://lokeshchauhan2801.github.io/Learningroutescl",
+{
+
   "name": "learningroutes",
+  "homepage": "https://lokeshchauhan2801.github.io/Learningroutescl",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
