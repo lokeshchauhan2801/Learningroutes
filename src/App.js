@@ -14,16 +14,14 @@ import ScroolUp from "./containers/ScroolUp";
 import PopUp from "./containers/PopUp";
 import SectionSeventh from "./containers/SectionSeventh";
 import AllinOne from "./MainHtml/AllInOne";
-
-
-
+import DropDownCourses from "./components/OurCoursesDropDown";
 
 
 function App() {
   return (
       <>
-
-      {/* <Head/>
+       
+       {/* <Head/>
       <Navbar/>
       <ExploreSection/> 
       <SectionSecond/>  
@@ -33,9 +31,9 @@ function App() {
       <SectionSixth/>
       <SectionSeventh/>
       <PopUp/>
-      <ScroolUp/>
-      <Footer/>  */}
-      <AllinOne/>
+  <ScroolUp/>
+      <Footer/>   */}
+       <AllinOne/> 
      </>
   );
 }

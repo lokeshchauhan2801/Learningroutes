@@ -5,6 +5,7 @@ import Head from './Head';
 export const Footer = () => {
   return (
     <>
+    <Head/>
              <div data-elementor-type="footer" data-elementor-id="12" className="elementor elementor-12 elementor-location-footer">
                     <section className="elementor-section elementor-top-section elementor-element elementor-element-469ba7d5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="469ba7d5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classNameic&quot;}">
                         <div className="elementor-container elementor-column-gap-default">
