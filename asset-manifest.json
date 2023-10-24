@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Learningroutescl/static/css/main.b0dbd2e6.css",
-    "main.js": "/Learningroutescl/static/js/main.2d59392b.js",
+    "main.js": "/Learningroutescl/static/js/main.a3ce85be.js",
     "static/js/787.3f241198.chunk.js": "/Learningroutescl/static/js/787.3f241198.chunk.js",
     "static/media/banner.webp": "/Learningroutescl/static/media/banner.73c15fcebef7adacfc9e.webp",
     "static/media/logo.png": "/Learningroutescl/static/media/logo.1fb27bb9d1bbdec61bc6.png",
     "index.html": "/Learningroutescl/index.html",
     "main.b0dbd2e6.css.map": "/Learningroutescl/static/css/main.b0dbd2e6.css.map",
-    "main.2d59392b.js.map": "/Learningroutescl/static/js/main.2d59392b.js.map",
+    "main.a3ce85be.js.map": "/Learningroutescl/static/js/main.a3ce85be.js.map",
     "787.3f241198.chunk.js.map": "/Learningroutescl/static/js/787.3f241198.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0dbd2e6.css",
-    "static/js/main.2d59392b.js"
+    "static/js/main.a3ce85be.js"
   ]
 }
