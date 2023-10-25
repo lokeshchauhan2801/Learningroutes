@@ -96,50 +96,43 @@ const Navbar = () => {
                                                                     <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-28">
                                                                         {/* <DropDownCourses /> */}
                                                                         {/* <ul class="menu"> */}
-                                                                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-28">
-                                                                                        <label for="OurCourses"><a href="#" className="elementor-item elementor-item-anchor menu-link">
-                                                                                            Our Courses <span role="application" className="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle"></span>
-                                                                                        </a>
-                                                                                        </label>
-                                                                                        
-                                                                                        <section id="OurCourses" className="sub-menu elementor-nav-menu--dropdown">
-                                                                                            <option className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17332">
-                                                                                                <a href="https://www.learningroutes.in/online-pg-programmes/" className="elementor-sub-item menu-link">Online PG Programmes</a>
-                                                                                            </option>
-                                                                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17560">
-                                                                                                <a href="https://www.learningroutes.in/executive-mba-programmes/" className="elementor-sub-item menu-link">Executive MBA Programmes</a>
-                                                                                            </li>
-                                                                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17318">
-                                                                                                <a href="https://www.learningroutes.in/online-ug-programmes/" className="elementor-sub-item menu-link">Online UG Programmes</a>
-                                                                                            </li>
-                                                                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17403">
-                                                                                                <a href="https://www.learningroutes.in/online-msc-programmes/" className="elementor-sub-item menu-link">Online MSc Programmes</a>
-                                                                                            </li>
-                                                                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17449">
-                                                                                                <a href="https://www.learningroutes.in/executive-programmes/" className="elementor-sub-item menu-link">Executive Programmes</a>
-                                                                                            </li>
-                                                                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17439">
-                                                                                                <a href="https://www.learningroutes.in/online-dba-programmes/" className="elementor-sub-item menu-link">Online DBA Programmes</a>
-                                                                                            </li>
-                                                                                            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17380">
-                                                                                                <a href="https://www.learningroutes.in/certifications-courses/" className="elementor-sub-item menu-link">Certifications Courses</a>
-                                                                                            </li>
-                        
-                                                                                        </section>
-                                                                            
-                                                                             
+                                                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-28">
+                                                                            <label for="OurCourses"><a href="#" className="elementor-item elementor-item-anchor menu-link">
+                                                                                Our Courses <span role="application" className="dropdown-menu-toggle ast-header-navigation-arrow" tabindex="0" aria-expanded="false" aria-label="Menu Toggle"></span>
+                                                                            </a>
+                                                                            </label>
+
+                                                                            <section id="OurCourses" className="sub-menu elementor-nav-menu--dropdown">
+                                                                                <option className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17332">
+                                                                                    <a href="https://www.learningroutes.in/online-pg-programmes/" className="elementor-sub-item menu-link">Online PG Programmes</a>
+                                                                                </option>
+                                                                                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17560">
+                                                                                    <a href="https://www.learningroutes.in/executive-mba-programmes/" className="elementor-sub-item menu-link">Executive MBA Programmes</a>
+                                                                                </li>
+                                                                                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17318">
+                                                                                    <a href="https://www.learningroutes.in/online-ug-programmes/" className="elementor-sub-item menu-link">Online UG Programmes</a>
+                                                                                </li>
+                                                                                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17403">
+                                                                                    <a href="https://www.learningroutes.in/online-msc-programmes/" className="elementor-sub-item menu-link">Online MSc Programmes</a>
+                                                                                </li>
+                                                                                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17449">
+                                                                                    <a href="https://www.learningroutes.in/executive-programmes/" className="elementor-sub-item menu-link">Executive Programmes</a>
+                                                                                </li>
+                                                                                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17439">
+                                                                                    <a href="https://www.learningroutes.in/online-dba-programmes/" className="elementor-sub-item menu-link">Online DBA Programmes</a>
+                                                                                </li>
+                                                                                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-17380">
+                                                                                    <a href="https://www.learningroutes.in/certifications-courses/" className="elementor-sub-item menu-link">Certifications Courses</a>
+                                                                                </li>
+
+                                                                            </section>
 
 
+                                                                        </li>
 
-                                                                                    {/* -------------------------------- */}
-                                                                           
-                                                                                    </li>
-                                                                                    {/* ------------------------------------------ */}
-                                                                                
-                                                                            </li>
-                                                                        {/* </ul> */}
+                                                                    </li>
 
-                                                            
+
                                                                     <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26">
 
 
@@ -259,7 +252,6 @@ const Navbar = () => {
                                                 </div>
                                             </div>
 
-                                            {/* ---------------------------------------------------------------something wrong here  */}
                                             <div className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-05ef50f elementor-hidden-mobile elementor-hidden-tablet" data-id="05ef50f" data-element_type="column">
                                                 <div className="elementor-widget-wrap elementor-element-populated">
                                                     <div className="elementor-element elementor-element-8839bde elementor-widget elementor-widget-button" data-id="8839bde" data-element_type="widget" data-widget_type="button.default">
@@ -288,4 +280,4 @@ const Navbar = () => {
     )
 }
 export default Navbar;
-
+ 

@@ -60,7 +60,7 @@ export const ExploreSection = () => {
                                     <noscript>
                                         <img decoding="async" width="1060" height="777" src={BannerImage} className="attachment-full size-full wp-image-17527" alt="Banner image loading"  sizes="(max-width: 1060px) 100vw, 1060px" />
                                     </noscript>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     </div>

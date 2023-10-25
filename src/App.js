@@ -15,7 +15,7 @@ import PopUp from "./containers/PopUp";
 import SectionSeventh from "./containers/SectionSeventh";
 import AllinOne from "./MainHtml/AllInOne";
 import DropDownCourses from "./components/OurCoursesDropDown";
-
+import TestNavbar from "./components/TestNavbar";
 
 function App() {
   return (
@@ -34,6 +34,7 @@ function App() {
   <ScroolUp/>
       <Footer/>   */}
        <AllinOne/> 
+       {/* <TestNavbar/> */}
      </>
   );
 }

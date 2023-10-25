@@ -1,0 +1,100 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding:20px 50px;
+  }
+  
+  .logo img {
+    max-height:70px; /* Adjust the max-height  */
+  }
+  
+  .explore-colleges {
+    position:relative;
+    margin-right:700px; /* Adjust the margin  */
+  }
+  
+  .explore-colleges ul  {
+    text-decoration: none;
+    color: white; /* Change the text color  */
+    background-color: #1e74d2; /* Background color for Explore Colleges */
+    border-radius: 8px; /* Border-radius for rounded corners */
+    padding: 10px; /* Padding for the Explore Colleges item */
+    display: flex;
+    align-items: left; /* Center the arrow vertically */
+  }
+ 
+  
+  .explore-colleges:hover .dropdown-content {
+    display: block;
+    background-color: #f0f0f0;
+    color: black;
+  }
+  .explore-colleges ul  a{
+    text-decoration: none;
+    color:black; /* Change the text color  */
+    background-color:white; /* Background color for Explore Colleges */
+    border-radius: 8px; /* Border-radius for rounded corners */
+    padding: 10px; /* Padding for the Explore Colleges item */
+    display: flex;
+    margin:5px;
+    align-items: left; /* Center the arrow vertically */
+ }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white; /* Change the dropdown background color to white */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    top: 100%; /* Position the dropdown below the Explore Colleges link */
+    left: 0; /* Align dropdown with the left edge of the Explore Colleges link */
+  }
+  
+  .menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333; /* Change the text color as needed */
+    padding: 10px;
+    display: block;
+  }
+  
+  .menu a:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  /* Media Query for Mobile Devices */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .menu {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .menu li {
+      width: 100%;
+    }
+  
+    .menu a {
+      padding:10px  
+    }
+  }
